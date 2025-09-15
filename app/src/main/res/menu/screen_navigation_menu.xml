@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/nav_alcoholic"
+        android:title="Alkoholisch" />
+    <item
+        android:id="@+id/nav_non_alcoholic"
+        android:title="Nicht Alkoholisch" />
+    <item
+        android:id="@+id/nav_favorites"
+        android:title="Lieblingsgetränk" />
+</menu>

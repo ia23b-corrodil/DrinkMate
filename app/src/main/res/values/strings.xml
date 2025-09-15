@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DrinkMate</string>
+    <string name="title_activity_drink_detail">Drink Details</string>
+</resources>

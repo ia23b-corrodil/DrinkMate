@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewFavoriteDrink"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFavoriteDrinkName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/imageViewFavoriteDrink"
+        app:layout_constraintTop_toTopOf="@id/imageViewFavoriteDrink"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewFavoriteDrink"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewUnfavorite"
+        tools:text="Margarita ohne" />
+
+    <ImageView
+        android:id="@+id/imageViewUnfavorite"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="4dp"
+        app:srcCompat="@drawable/ic_favorite_filled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageViewFavoriteDrink"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewFavoriteDrink"
+        app:tint="@color/design_default_color_error" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
