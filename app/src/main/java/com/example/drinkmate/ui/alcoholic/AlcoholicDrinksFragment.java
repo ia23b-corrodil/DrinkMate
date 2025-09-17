@@ -23,6 +23,13 @@ import com.example.drinkmate.DrinkDetailActivity;
 import com.example.drinkmate.viewmodel.AlcoholicDrinksViewModel;
 import java.util.ArrayList;
 
+/**
+ * Ein Fragment zur Anzeige einer Liste alkoholischer Getränke.
+ * Es verwendet {@link AlcoholicDrinksViewModel} zum Laden und Verwalten der Getränkedaten
+ * und einen {@link DrinkAdapter} zur Darstellung der Getränke in einer RecyclerView.
+ * Das Fragment zeigt Ladeindikatoren, Fehlermeldungen und leere Zustände an.
+ * Beim Klicken auf ein Getränk wird die {@link DrinkDetailActivity} gestartet.
+ */
 public class AlcoholicDrinksFragment extends Fragment {
 
     private AlcoholicDrinksViewModel alcoholicDrinksViewModel;

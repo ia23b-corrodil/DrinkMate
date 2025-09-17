@@ -16,6 +16,11 @@ import com.example.drinkmate.model.Drink;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Adapter für die RecyclerView zur Anzeige einer Liste von Getränken.
+ * Verantwortlich für das Erstellen von ViewHoldern und das Binden der Getränkedaten an die Views.
+ * Beinhaltet ein OnItemClickListener-Interface, um Klick-Ereignisse auf einzelne Elemente zu behandeln.
+ */
 public class DrinkAdapter extends RecyclerView.Adapter<DrinkAdapter.DrinkViewHolder> {
 
     private List<Drink> drinks;

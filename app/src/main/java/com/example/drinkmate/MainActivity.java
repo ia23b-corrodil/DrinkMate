@@ -24,6 +24,12 @@ import com.example.drinkmate.ui.favorites.FavoritesFragment;
 import com.example.drinkmate.ui.nonalcoholic.NonAlcoholicDrinksFragment;
 import com.example.drinkmate.ui.search.SearchFragment;
 
+/**
+ * Die Hauptaktivität der Anwendung.
+ * Verantwortlich für die Einrichtung der Hauptbenutzeroberfläche, einschließlich der Toolbar und eines Fragment-Containers.
+ * Verwaltet die Navigation zwischen verschiedenen Fragmenten (Suche, Alkoholische Getränke, Nicht-alkoholische Getränke, Favoriten)
+ * über ein Popup-Menü und behandelt Navigations-Intents von anderen Aktivitäten.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
