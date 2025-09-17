@@ -18,7 +18,7 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
 
     private List<FavoriteDrink> favoriteDrinks = new ArrayList<>();
     private OnUnfavoriteClickListener unfavoriteClickListener;
-    private OnFavoriteItemClickListener favoriteItemClickListener; // Neu: Listener für Item-Klick
+    private OnFavoriteItemClickListener favoriteItemClickListener; // : Listener für Item-Klick
     private Context context;
 
     // Interface für den Klick auf das "Entfavorisieren"-Icon
@@ -26,7 +26,7 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
         void onUnfavoriteClick(FavoriteDrink favoriteDrink);
     }
 
-    // Neu: Interface für den Klick auf das gesamte Item
+    // Interface für den Klick auf das gesamte Item
     public interface OnFavoriteItemClickListener {
         void onFavoriteItemClick(FavoriteDrink favoriteDrink);
     }
@@ -63,7 +63,7 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
             }
         });
 
-        // Neu: Klick-Listener für das gesamte ItemView im ViewHolder
+        // Klick-Listener für das gesamte ItemView im ViewHolder
         // wird im ViewHolder-Konstruktor gesetzt
     }
 

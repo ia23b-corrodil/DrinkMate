@@ -42,7 +42,7 @@ public class DrinkDetailActivity extends AppCompatActivity {
     private static final String TAG = "DrinkDetailActivity";
     public static final String EXTRA_DRINK_ID = "com.example.drinkmate.EXTRA_DRINK_ID";
     public static final String EXTRA_NAVIGATE_TO_FRAGMENT = "com.example.drinkmate.NAVIGATE_TO_FRAGMENT";
-    // Neu: Konstante für das Laden aus der DB
+    // Konstante für das Laden aus der DB
     public static final String EXTRA_LOAD_FAVORITE_FROM_DB = "com.example.drinkmate.LOAD_FAVORITE_FROM_DB";
 
     public static final String NAV_SEARCH = "NAV_SEARCH";
